@@ -6,6 +6,7 @@ import Welcome from "./components/welcome/Welcome";
 import Clock from "./components/clock/Clock";
 import Contacts from "./components/contacts/Contacts";
 import Navigation from "./components/navigation/Navigation";
+import Jeopardy from "./components/Jeopardy/Jeopardy";
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         />
         <Route path="/clock" component={Clock} />
         <Route path="/contacts" component={Contacts} />
+        <Route path="/jeopardy" component={Jeopardy} />
       </div>
     );
   }
